@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Embodied Agent in Urban Environment">
-  <meta name="keywords" content="Embodied, Embodied,Benchmark, Agent, GPT-4V">
+        content="EmbodiedNav">
+  <meta name="keywords" content="Embodied, EmbodiedNav, Agent, GPT-4V">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Embodied Agent in Urban Environment</title>
 
@@ -49,7 +49,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">EMBODIEDCITY</h1>
+          <h1 class="title is-1 publication-title">EmbodiedNav: Goal-Oriented Aerial Embodied Navigation in Urban Spaces Inspired by Spatial Cognition</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
 
@@ -97,34 +97,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-Embodied artificial intelligence (EmbodiedAI) emphasizes the role of an agent’s
-body in generating human-like behaviors. The recent efforts on EmbodiedAI pay
-a lot of attention to building up machine learning models to possess perceiving,
-planning, and acting abilities, thereby enabling real-time interaction with the world.
-However, most works focus on bounded indoor environments, such as navigation
-in a room or manipulating a device, with limited exploration of embodying the
-agents in open-world scenarios. That is, embodied intelligence in the open and
-outdoor environment is less explored, for which one potential reason is the lack
-of high-quality simulators, benchmarks, and datasets. To address it, in this paper,
-we construct a benchmark platform for embodied intelligence evaluation in real-
-world city environments. Specifically, we first construct a highly realistic 3D
-simulation environment based on the real buildings, roads, and other elements
-in a real city. In this environment, we combine historically collected data and
-simulation algorithms to conduct simulations of pedestrian and vehicle flows with
-high fidelity. Further, we designed a set of evaluation tasks covering different
-EmbodiedAI abilities. Moreover, we provide a complete set of input and output
-interfaces for access, enabling embodied agents to easily take task requirements and
-current environmental observations as input and then make decisions and obtain
-performance evaluations. On the one hand, it expands the capability of existing
-embodied intelligence to higher levels. On the other hand, it has a higher practical
-value in the real world and can support more potential applications for artificial
-general intelligence. Based on this platform, we evaluate some popular large
-language models for embodied intelligence capabilities of different dimensions and
-difficulties. The executable program of this platform is available for download, and
-we have also released an easy-to-use Python library and detailed tutorial documents.
-All of the software, Python library, codes, datasets, tutorials, and real-time online service are available on this anonymous website:
-              <a href="https://embodied-city.fiblab.net/">https://embodied-city.fiblab.net/.
-          </a>
+......
           </p>
 
         </div>
@@ -142,31 +115,27 @@ All of the software, Python library, codes, datasets, tutorials, and real-time o
                     <br></br>
                 <h3 class="title is-4" >Author</h3>
                 <p>
-                    Chen Gao
-, Baining Zhao
-, Weichen Zhang, Jinzhu Mao, Jun Zhang, Zhiheng Zheng,
-Fanhang Man, Jianjie Fang, Zile Zhou, Jinqiang Cui,
-Xinlei Chen, Yong Li
+Baining Zhao, Chen Gao, Jianjie Fang, Zile Zhou, Yanggang Xu, Weichen Zhang, Qian Zhang, Susu Xu, Jinqiang Cui, Xinlei Chen, Yong Li
                     <br></br>
                 </p>
                     <h3 class="title is-4" >Introduction</h3>
                     <div class="content has-text-justified">
 
                     <p>
-                        We first constructed a city-embodied environment simulator. This platform is developed based on a city simulator, providing 3D environments and interactions. The basic environment of the simulator includes a large business district in Beijing, one of the biggest city in China, in which we build 3D model for buildings, streets, and other elements, hosted by Unreal Engine 4.17. We further build the interface of embodied agents to ensure the agents can indeed embod themselves in the system. To implement it,we use the AirSim plugin provide by Microsoft. Specifically, AirSim is originally designed for airdrones, for which the observations are conducted through a first-view manner, and the control for airdrones includes motion, velocity, accelerated velocity, etc.
+......
                     </p>
 
-                    <h3 class="title is-5" style="text-align: center;">Benchmark Framework</h3>
+                    <h3 class="title is-5" style="text-align: center;">......</h3>
                     <img src="./static/images/figure1.jpg" alt="Figure 1" style="width: 80%; height: auto; display: block; margin: 0 auto;">
 
-                    <h3 class="title is-5" style="text-align: center;">Overview of Simulator</h3>
+                    <h3 class="title is-5" style="text-align: center;">......</h3>
                     <img src="./static/images/simulator.jpg"/>
 
                     <p>
-                       We defined a system of five tasks, including embodied scene description, embodied question answering, embodied dialogue, embodied visual language navigation, and embodied task planning. For each task, we carefully and manually set up the input/output, and construct the ground truth data combined with large language models and human labor. We also provide the interface for the platform through which the agents can obtain the embodied observations and take actions in real-time simulation, after which the agent can be evaluated. Moreover, we deploy the most famous and widely used large language models to construct the embodied agents, the intelligence level of which is evaluated on five tasks.
+......
                     </p>
 
-                    <h3 class="title is-5" style="text-align: center;">Embodied Tasks</h3>
+                    <h3 class="title is-5" style="text-align: center;">......</h3>
                     <img src="./static/images/benchmark.jpg"/>
     </div>
 </section>
